@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+}
+
+#main {
+    margin: 2rem 1rem;
+    background-color: #d7eaea;
+    color: #333333;
+    border-radius: 5px;
+}
+
+/* Section: Heading */
+main #header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 3rem 0 0.5rem 0;
+}
+
+.h-caption {
+    padding: 0.5rem 0;
+}
+
+/* Section: Cover Image */
+#img-div {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#img-div #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    text-align: center;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+/* Section: Tribute Info */
+#tribute-info .t-heading {
+    text-align: center;
+    margin: 3rem;
+}
+
+#tribute-info ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+#tribute-info ul li {
+    margin: 1rem 0;
+}
+
+#tribute-info .bold-li {
+    font-weight: bold;
+}
+
+#tribute-info .quote {
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    font-style: italic;
+    text-align: left;
+}
+
+.wiki {
+    text-align: center;
+    margin: 0 2rem;
+    padding-bottom: 2.5rem;
+}
+
+/* Tablet devices */
+@media screen and (min-width: 768px) {
+    #tribute-info ul {
+        max-width: 360px;
+    }
+
+    #tribute-info .quote {
+        max-width: 425px;
+    }
+}
+
+/* Mobiles */
+@media screen and (max-width: 500px) {
+    #tribute-info ul {
+        max-width: 350px;
+    }
+
+    #tribute-info .quote {
+        max-width: 425px;
+    }
+}
